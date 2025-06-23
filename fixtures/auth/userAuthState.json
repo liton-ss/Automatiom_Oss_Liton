@@ -1,0 +1,22 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://192.168.1.125:31710",
+      "localStorage": [
+        {
+          "name": "formioToken",
+          "value": "9bbf6cff-20f9-4793-98f0-fee086ef9e35"
+        },
+        {
+          "name": "baseURL",
+          "value": "{\"beza\":\"https://api.pentabd.com/beza-service-dev\",\"sop\":\"https://api.pentabd.com/sop-builder-backend-dev\"}"
+        },
+        {
+          "name": "port",
+          "value": "{\"beza\":\"\",\"sop\":\"\"}"
+        }
+      ]
+    }
+  ]
+}
