@@ -42,7 +42,7 @@ export class LmsCreationPage extends BasePage {
         super(page);
         
         // Application Information
-        this.createNewAppButton = page.getByRole('button', { name: 'create new application Create' });
+        this.createNewAppButton = page.getByRole('button', { name: 'Create New Application' });
         this.ezNameDropdown = page.getByText('EZ Name');
         this.parentCompanyInput = page.getByRole('textbox', { name: 'Parent Company *' });
         this.establishmentDateInput = page.locator('.input-group > input:nth-child(2)').first();

@@ -39,7 +39,7 @@ export default defineConfig({
 
     {
       name: 'setup',
-      testMatch: '**/setup/*.setup.ts',
+      testMatch: 'tests/setup/auth.setup.ts',
       use: {
         ...devices['Desktop Chrome'],
         viewport: { width: 1280, height: 720 },
@@ -55,7 +55,7 @@ export default defineConfig({
     dependencies: ['setup']
   },
 
-    {
+   /* {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
@@ -69,6 +69,7 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+    */
 
     /* Test against mobile viewports. */
     // {

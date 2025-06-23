@@ -2,8 +2,8 @@
     "baseurl": "http://192.168.1.125:31710/",
     "validUser": {
       "loginUrl": "http://192.168.1.125:31710/login",
-      "email": "liton_test@gmail.com",
-      "password": "1"
+      "email": "test_lms_mis_1@beza.com",
+      "password": "12345"
     },
     "lmsCreation": {
       "url": "http://192.168.1.125:31710/sops/444/create",

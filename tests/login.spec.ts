@@ -11,9 +11,6 @@ test('login with valid data', async ({ page }) => {
     // Wait for the expected dashboard text to appear
     //   const title = page.getByText('ONE STOP SERVICE CENTER', { exact: true });
     //   await expect(title).toBeVisible();
-
-
-await page.goto('http://192.168.1.125:31710/sops/188');
-
 await page.pause();
+
 });
